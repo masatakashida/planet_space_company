@@ -3,8 +3,12 @@
 body {
   margin: 0
 }
+
+header {
+  background-color: silver;
+}
+
 nav {
-  background: silver;
   padding: 10px
 }
 
