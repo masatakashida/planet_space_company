@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body {
   margin: 0
 }
@@ -7,16 +8,20 @@ nav {
   padding: 10px
 }
 
-body {font-family: Meiryo;
-      background-color: #fff09e
+body {
+  font-family: Meiryo;
+  background-color: #fff09e
 }
 
-h1 {font-size: 38px;
-    text-align: center;
+h1 {
+  font-size: 38px;
+  text-align: center;
 }
-h2 {text-align: center;
+h2 {
+  text-align: center;
 }
 
-p {line-height: 2.0;
-   text-align: center;
+p {
+  line-height: 2.0;
+  text-align: center;
 }
