@@ -17,6 +17,10 @@ header {
   background-color: silver;
 }
 
+.title {
+  font-size: 1.5rem;
+}
+
 nav {
   padding: 10px;
 }
