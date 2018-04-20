@@ -4,8 +4,19 @@ body {
 }
 nav {
   background: silver;
-   }
+  padding: 10px
+}
+
 body {font-family: Meiryo;
-      background-color: #fff09e}
-h1 {font-size: 38px;}
-p {line-height: 2.0;}
+      background-color: #fff09e
+}
+
+h1 {font-size: 38px;
+    text-align: center;
+}
+h2 {text-align: center;
+}
+
+p {line-height: 2.0;
+   text-align: center;
+}
