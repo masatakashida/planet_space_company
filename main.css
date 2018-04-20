@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 body {
-  margin: 0
+  margin: 0;
+  font-family: Meiryo;
+  background-color: #fff09e;
 }
 
 header {
@@ -9,12 +11,7 @@ header {
 }
 
 nav {
-  padding: 10px
-}
-
-body {
-  font-family: Meiryo;
-  background-color: #fff09e
+  padding: 10px;
 }
 
 h1 {
