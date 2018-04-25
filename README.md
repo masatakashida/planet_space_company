@@ -12,3 +12,5 @@ git clone git@github.com:masatakashida/planet_space_company.git
 ```
 open index.html
 ```
+
+## サーバ
