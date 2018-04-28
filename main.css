@@ -57,6 +57,12 @@ p {
   height: 100px;
   width: 100px;
 }
+
+.send {
+  background-image: url(image/test.jpg);
+  height: 500px;
+}
+
 /* -------------------------------------------
 footer
 -------------------------------------------- */
