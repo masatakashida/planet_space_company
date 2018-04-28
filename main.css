@@ -58,7 +58,7 @@ p {
   width: 100px;
 }
 
-.send {
+.photo1 {
   background-image: url(image/test.jpg);
   background-size: cover;
   height: 500px;
@@ -69,7 +69,6 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 /* -------------------------------------------
 footer
