@@ -60,9 +60,17 @@ p {
 
 .send {
   background-image: url(image/test.jpg);
+  background-size: cover;
   height: 500px;
 }
 
+.manual {
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 /* -------------------------------------------
 footer
 -------------------------------------------- */
