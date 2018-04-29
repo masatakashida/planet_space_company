@@ -55,7 +55,8 @@ p {
 
 article {
   font-size: 1.0rem;
-  background-color: #ffffff
+  background-color: #ffffff;
+  padding: 20px;
 }
 /* -------------------------------------------
 footer
