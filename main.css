@@ -64,6 +64,12 @@ p {
   height: 500px;
 }
 
+.photo2 {
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .manual {
   height: 300px;
   display: block;
