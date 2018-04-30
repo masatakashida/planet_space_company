@@ -48,6 +48,10 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  margin-top: 0
+}
+
 p {
   line-height: 2.0;
   text-align: center;
@@ -76,6 +80,13 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+article {
+  font-size: 1.0rem;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
 /* -------------------------------------------
 footer
 -------------------------------------------- */
