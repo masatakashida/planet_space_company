@@ -88,8 +88,6 @@ article {
 }
 
 .btn{
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
     display: inline-block;
     padding: 0.25em 0.5em;
