@@ -62,6 +62,17 @@ p {
   width: 100px;
 }
 
+.okaimono-manual {
+  height: 50%;
+  width: 50%;
+}
+
+.line {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
 .photo1 {
   background-image: url(image/test.jpg);
   background-size: cover;
