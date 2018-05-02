@@ -58,9 +58,20 @@ p {
 }
 
 .okaimono-image {
-  height: 100px;
-  width: 100px;
+  height: 110px;
+  width: 110px;
 }
+
+.okaimono-manual {
+  height: 50%;
+  width: 50%;
+}
+
+.line {
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 .photo1 {
   background-image: url(image/test.jpg);
@@ -97,6 +108,14 @@ article {
     border-bottom: solid 2px;
     border-radius: 4px;
     font-weight: bold;
+}
+
+hr {
+   border:0;
+   border-top:thin
+   height: 10px;
+   border-top: dotted;
+   border-color: green;
 }
 /* -------------------------------------------
 footer
