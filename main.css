@@ -176,6 +176,46 @@ p {
   width: 110px;
 }
 
+.balloon-bottomleft {
+    position: relative;
+    margin: 2em 0 2em 50px;
+    padding: 15px;
+    background: #fff0c6;
+    border-radius: 30px;
+    width: 330px;
+}
+
+.balloon-bottomleft:before{
+    content: "";
+    position: absolute;
+    right: -38px;
+    width: 13px;
+    height: 12px;
+    bottom: 83px;
+    background: #fff0c6;
+    border-radius: 50%;
+}
+
+.balloon-bottomleft:after{
+    content: "";
+    position: absolute;
+    right: -24px;
+    width: 20px;
+    height: 18px;
+    bottom: 70px;
+    background: #fff0c6;
+    border-radius: 50%;
+}
+.balloon-bottomleft p {
+    margin: 0;
+    padding: 0;
+}
+
+.okaimono-image {
+  height: 110px;
+  width: 110px;
+}
+
 .okaimono-manual {
   height: 50%;
   width: 50%;
