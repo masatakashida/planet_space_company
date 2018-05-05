@@ -59,6 +59,13 @@ p {
   text-align: center;
 }
 
+.woman {
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .okaimono-image {
   height: 110px;
   width: 110px;
