@@ -71,10 +71,11 @@ p {
 
 .balloon-topright {
   position: relative;
-  margin: 2em 0 2em 700px;
+  margin: 2em 0 2em 100px;
   padding: 15px;
   background: #fff0c6;
   border-radius: 30px;
+  border: solid 3px gray;
   width: 30%;
   height: 60px;
   float: right;
@@ -88,6 +89,7 @@ p {
   height: 12px;
   bottom: 0;
   background: #fff0c6;
+  border: solid 3px gray;
   border-radius: 50%;
 }
 
@@ -99,6 +101,7 @@ p {
   height: 18px;
   bottom: 3px;
   background: #fff0c6;
+  border: solid 3px gray;
   border-radius: 50%;
 }
 
@@ -113,6 +116,7 @@ p {
   padding: 15px;
   background: #fff0c6;
   border-radius: 30px;
+  border: solid 3px gray;
   width: 30%;
   float: left;
 }
@@ -125,6 +129,7 @@ p {
   height: 12px;
   bottom: 0;
   background: #fff0c6;
+  border: solid 3px gray;
   border-radius: 50%;
 }
 
@@ -136,6 +141,7 @@ p {
   height: 18px;
   bottom: 3px;
   background: #fff0c6;
+  border: solid 3px gray;
   border-radius: 50%;
 }
 
@@ -146,12 +152,14 @@ p {
 
 .balloon-bottomright {
   position: relative;
-  margin: 2em 0 2em 700px;
+  margin: 2em 0 2em 50px;
   padding: 15px;
   background: #fff0c6;
+  border: solid 3px #555;
   border-radius: 30px;
   width: 30%;
   height: 60px;
+  border: solid 3px gray;
   float: right;
 }
 
@@ -163,6 +171,7 @@ p {
   height: 12px;
   bottom: 83px;
   background: #fff0c6;
+  border: solid 3px gray;
   border-radius: 50%;
 }
 
@@ -174,6 +183,7 @@ p {
   height: 18px;
   bottom: 70px;
   background: #fff0c6;
+  border: solid 3px gray;
   border-radius: 50%;
 }
 
@@ -188,6 +198,7 @@ p {
   padding: 15px;
   background: #fff0c6;
   border-radius: 30px;
+  border: solid 3px gray;
   width: 30%;
   float: left;
 }
@@ -200,6 +211,7 @@ p {
   height: 12px;
   bottom: 83px;
   background: #fff0c6;
+  border: solid 3px gray;
   border-radius: 50%;
 }
 
@@ -211,6 +223,7 @@ p {
   height: 18px;
   bottom: 70px;
   background: #fff0c6;
+  border: solid 3px gray;
   border-radius: 50%;
 }
 
@@ -218,7 +231,6 @@ p {
   margin: 0;
   padding: 0;
 }
-
 
 .okaimono-image {
   height: 110px;
