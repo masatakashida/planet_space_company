@@ -66,11 +66,12 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  clear: right;
 }
 
 .balloon-topright {
   position: relative;
-  margin: 2em 0 2em 10px;
+  margin: 2em 0 2em 700px;
   padding: 15px;
   background: #fff0c6;
   border-radius: 30px;
@@ -234,7 +235,6 @@ p {
   text-align: center;
 }
 
-
 .photo1 {
   background-image: url(image/test.jpg);
   background-size: cover;
@@ -278,6 +278,10 @@ hr {
   height: 10px;
   border-top: dotted;
   border-color: green;
+}
+
+#section2 {
+  clear: right;
 }
 
 /* -------------------------------------------
