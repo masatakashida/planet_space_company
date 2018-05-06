@@ -285,8 +285,8 @@ article {
 }
 
 hr {
-  border:0;
-  border-top:thin;
+  border: 0;
+  border-top: thin;
   height: 10px;
   border-top: dotted;
   border-color: green;
