@@ -38,6 +38,23 @@ header {
 main
 -------------------------------------------- */
 
+// 将来的にmainからの塊にしたい
+
+main {
+  & .photo2 {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    & ul {
+      display: flex;
+      & li {
+        list-style: none;
+        flex: 1;
+      }
+    }
+  }
+}
+
 h1 {
   font-size: 38px;
   text-align: center;
@@ -235,12 +252,6 @@ p {
   background-image: url(image/test.jpg);
   background-size: cover;
   height: 500px;
-}
-
-.photo2 {
-  width: auto;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .manual {
