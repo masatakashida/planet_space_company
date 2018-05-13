@@ -7,6 +7,7 @@
 body {
   margin: 0;
   font-family: Meiryo;
+  // 一個のフォントだけではなく複数のフォントも指定した方がよいかも？（憶測）
   background-color: #F8F2EB;
 }
 
@@ -17,24 +18,20 @@ header
 header {
   background-color: #E6E6E6;
   display: flex;
-}
-
-.title {
-  font-size: 1.5rem;
-  padding: 20px 40px;
-}
-
-nav {
-  padding: 10px;
-}
-
-ul {
-  display: flex;
-}
-
-li {
-  list-style: none;
-  padding: 0 10px;
+  & .title {
+    font-size: 1.5rem;
+    padding: 20px 40px;
+  }
+  & nav {
+    padding: 10px;
+    & ul {
+      display: flex;
+      & li {
+        list-style: none;
+        padding: 0 10px;
+      }
+    }
+  }  
 }
 
 /* -------------------------------------------
