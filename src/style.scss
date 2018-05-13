@@ -34,6 +34,17 @@ header {
   }  
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    & .title {
+      padding: 10px 20px;
+    }
+    & nav {
+      display: none;
+    }
+  }
+}
+
 /* -------------------------------------------
 main
 -------------------------------------------- */
@@ -41,6 +52,10 @@ main
 // 将来的にmainからの塊にしたい
 
 main {
+  & .photo1 h1 {
+    margin: 0;
+    padding: 30px 20px;
+  }
   & .photo2 {
     width: auto;
     margin: 0 auto;
