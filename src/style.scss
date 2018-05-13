@@ -306,6 +306,17 @@ hr {
   clear: right;
 }
 
+@media screen and (max-width: 768px) {
+  main {
+    & #section4 {
+      & img {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+}
+
 /* -------------------------------------------
 footer
 -------------------------------------------- */
